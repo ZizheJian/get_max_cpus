@@ -10,7 +10,7 @@ Add the directory as a CMake subdirectory and link the target:
 
 ```cmake
 add_subdirectory(third_party/get_max_cpus/c_codes ${CMAKE_BINARY_DIR}/get_max_cpus_build)
-target_link_libraries(my_target PRIVATE get_max_cpus::get_max_cpus)
+target_link_libraries(my_target PRIVATE get_max_cpus)
 ```
 
 ```cpp
